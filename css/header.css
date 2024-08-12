@@ -1,0 +1,48 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.header {
+    background-color: transparent; /* Light background for the header */
+    padding: 30px 20px; /* Padding around the header */
+    position: fixed; /* Fixed position to stay on top */
+    width: 100%; /* Full width */
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* High z-index to ensure it's above other content */
+}
+
+.header-logo img {
+    max-height: 40px; /* Adjust logo height */
+}
+
+.nav-link {
+    color: #F5F5F5; /* Default text color for navigation links */
+    margin-right: 20px; /* Space between links */
+}
+
+.nav-link:hover {
+    color: #007bff; /* Color on hover */
+}
+
+.btn-get-access {
+    background-color: rgba(118, 118, 178, 0.4);
+    color: #F5F5F5; /* Text color */
+    border: none; /* Remove border */
+    background-opacity : 50%;
+}
+
+.btn-get-access:hover {
+    background-color: #7676B2; /* Darker shade on hover */
+    color: #F5F5F5;
+}
+
+.hero-container {
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px; /* Adjust padding as needed */
+    color: #F5F5F5; /* Text color for hero section */
+    min-height: 100vh; /* Ensure it covers the viewport height */
+    margin-top: 0; /* Ensure there's no extra space between header and hero section */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}

@@ -1,0 +1,36 @@
+.text-home {
+    color: #F5F5F5;
+}
+
+.lexend-deca-normal {
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 32px;      
+    line-height: 40px;   
+    font-weight: normal;  
+}
+
+.lexend-deca-bold {
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 50px;
+    line-height: 64px;
+    font-weight: bold;
+}
+
+.lexend-deca-paragraph {
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.lexend-deca-caption {
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: normal;
+}
+
+

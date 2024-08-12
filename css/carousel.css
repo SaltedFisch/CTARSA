@@ -1,0 +1,57 @@
+/* Custom style for setting carousel image size */
+.carousel-item img {
+    width: auto;
+    height: auto;
+    max-height: 380px;
+    object-fit: cover;
+    display: block;
+    margin-left: 10px; /* Space between images */
+    margin-right: 10px; /* Space between images */
+    transition: transform 0.4s ease-in-out; /* Smooth zoom effect */
+}
+/* Zoom effect on hover */
+.carousel-item img:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Ensure carousel controls are centered and positioned correctly */
+.carousel-control-prev, .carousel-control-next {
+    top: 50%; /* Vertically center */
+    transform: translateY(-50%); /* Centering adjustment */
+    width: 5%; /* Control width */
+}
+
+
+
+.custom-arrow-icon {
+    position: absolute; /* Position relative to the carousel */
+    bottom: 10px; /* Distance from the bottom edge */
+    right: 10px; /* Distance from the right edge */
+    display: flex; /* Use flexbox for horizontal layout */
+    gap: 10px; /* Space between custom arrows */
+}
+
+/* Container for custom arrows */
+.custom-arrows {
+    position: relative;
+    display: block;
+    justify-content: right;
+    gap: 10px; /* Space between custom arrows */
+    padding: 0 100px;
+}
+
+/* Positioning custom arrows */
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%; /* Vertically center */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+}
+
+.carousel-control-prev {
+    left: 1100px; /* Distance from the left edge */
+}
+
+.carousel-control-next {
+    right: 250px; /* Distance from the right edge */
+}

@@ -1,0 +1,17 @@
+/* Define keyframes for the animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply the animation to sections */
+.section-animate {
+    opacity: 0; /* Initial state for animation */
+    animation: fadeInUp 1s forwards; /* Apply animation */
+}

@@ -1,0 +1,64 @@
+
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: 'Lexend Deca', sans-serif; /* Apply Lexend Deca font */
+}
+.hero-container {
+    background-image: url('img/hero-img.jpg');
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full width */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+}
+
+.input-group-append .btn {
+    border-left: 0; /* Remove border between input and button */
+}
+.input-group-append .btn .fa-arrow-right {
+    font-size: 1.2rem; /* Adjust icon size */
+    
+}
+
+.input-width {
+    max-width: 250px; /* Set your desired width */
+    
+}
+
+.btn-new {
+    width: 250px; /* Adjust width as needed */
+    background-color: #5468E7; /* Custom background color */
+    color: #F5F5F5; /* Custom text color */
+    border: none; /* Remove border */
+}
+/*.btn-new:hover {
+    background-color: #e64a19; /* Darker shade on hover */ 
+
+/* Apply smooth transition to all elements */
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Specific transition for buttons */
+.btn, .nav-link, .link-with-arrow, .carousel-preview {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* Smooth hover effect for buttons and links */
+.btn:hover, .nav-link:hover, .link-with-arrow:hover {
+    transform: scale(1.05);
+}
+
+/* Smooth transition for carousel images */
+.carousel-item img {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add hover zoom effect */
+.carousel-item img:hover {
+    transform: scale(1.1);
+}

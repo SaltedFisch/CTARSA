@@ -1,0 +1,37 @@
+.footer-logo img {
+    max-width: 150px; /* Adjust logo size */
+}
+.footer-logo p {
+    margin-top: 10px;
+    font-size: 0.875rem; /* Adjust font size */
+}
+.footer h5 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem; /* Adjust heading size */
+}
+.footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+.footer ul li {
+    margin-bottom: 0.5rem;
+}
+.footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+.footer .contact-info p, .footer .stay-up-to-date p {
+    margin-bottom: 0;
+    font-size: 0.875rem; /* Adjust font size */
+}
+.footer .row > div {
+    margin-bottom: 1rem; /* Adjust spacing for smaller screens */
+}
+@media (min-width: 768px) {
+    .footer .col-md-6 {
+        margin-bottom: 0; /* Remove bottom margin for larger screens */
+    }
+}
